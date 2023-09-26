@@ -1,0 +1,178 @@
+body{
+    background-color: black;
+    
+}
+div{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+    
+    .head{
+    position:absolute;margin-right: 0.32%;
+    z-index: 3;
+    }
+        
+    .navigation{
+        border-style: ridge;border-width: 3px;border-color: red;
+        text-align: center;
+        background-color: rgb(212, 16, 16);
+        position:absolute;min-width: 13%; min-height: 70%; margin-top: 14%; padding-right: 1%; padding-left: 1%; padding-top: 1%;
+        z-index: 2;
+        text-align: center; 
+      
+        width: fit-content;
+        
+    }
+    .navigation a{
+        text-decoration: none;
+        
+    }
+        
+    .bouton{
+        color:rgb(43, 41, 41);
+        background-color:rgb(255, 237, 189);
+        border-width: 10px;
+        border-style: ridge; border-color:rgb(43, 41, 41);
+        padding-top: 5%;padding-bottom: 5%;padding-left: 6%;padding-right: 6%;
+        font-weight: bold;
+        }
+    .bouton:hover{
+            background-color: rgb(253, 236, 137);
+
+        }
+    .bouton:active{
+        margin: 6%;
+    }
+    .bouton_fonce{
+        color:rgb(43, 41, 41);
+        background-color:rgb(218, 209, 184);
+        border-width: 10px;
+        border-style: ridge; border-color:rgb(43, 41, 41);
+        padding-top: 5%;padding-bottom: 5%;padding-left: 6%;padding-right: 6%;
+        font-weight: bold;
+        } 
+    
+    
+    .contenu{
+        background-color:rgb(255, 237, 189);
+        position:absolute;margin-top: 14%; margin-left:16%; padding-top: 3% ; padding-left: 5%;padding-right: 5%; min-width: 10%; min-height: 65%; padding-bottom: 1%;
+        z-index:1;
+        border-style: ridge;border-width: 3px;border-color: red;
+    
+    }
+    
+    h2{
+        text-decoration: underline;
+        font-family:Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color: rgb(160, 9, 9);
+        font-size: 1cm;
+    }
+    
+    .cool{
+        color: white;
+        font-style: italic;
+        text-align: center;
+    }
+    .lune{
+        vertical-align:top ;
+        float: left;
+        text-align: center;
+       border-style: solid;
+       background-color: rgb(30, 29, 31);
+       margin-top: 1%;
+    }
+    .jazz{
+        vertical-align:top ;
+        text-align: center;
+        float: right;
+        margin-left: 1cm;
+       border-style: solid;
+       background-color: rgb(30, 29, 31);
+    }
+    
+    .film{
+        border-top: solid;
+        border-width: 0.15cm;
+    }
+    .run{
+        float: left;
+        vertical-align:top ;
+        width: fit-content;
+        margin-right: 1cm;
+        border-top: 1px ;
+        background-color: rgb(30, 29, 31);
+        padding: 1%;
+       
+    }
+  
+    .avis{
+        border-style: solid ; width: fit-content;
+        background-color: rgb(234, 220, 145);
+        padding-right: 1cm;
+        padding-left: 1cm;
+        margin-left:33%;
+        margin-right: 27%;
+        padding-bottom: 1%;
+        margin-top: 3%;
+    
+    }
+    .cadre{
+        border-style: solid;
+    }
+    .stop{
+       text-align: left; 
+       line-height: 2%;
+       width: fit-content;
+        border-right: 1px solid black;
+        padding-right: 1%;
+        padding-left: 1%;
+        text-decoration: none;
+     }
+     .txtaucentre{
+         text-align: center;
+     }
+
+table{
+background-color: red;
+}
+td{
+border-style:solid; 
+border-color:black;
+background-color: rgb(255, 237, 189);
+padding-bottom: 2%;padding-top: 2%;
+text-align: center;
+}
+th{
+    border-style:solid; 
+    border-color:black;
+    background-color: rgb(255, 237, 189);
+    padding-bottom: 2%;padding-top: 2%;
+    text-align: center;
+    font-size: 150%;
+}
+tr{
+background-color: rgb(255, 237, 189);
+text-align: center;
+}
+.titre_oeuvres{
+font-weight: bold;
+font-style: italic;
+text-decoration: underline;
+}    
+.pasdeligne{
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+}
+.pasdeligne:hover{
+    color:  rgb(160, 9, 9);
+}
+.ticket{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+	<meta charset="utf-8" />
+	<meta name="keywords" content="Thomas Valen et Evann virlouvet"/>
+	<title>Le monde du cinéma</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+   </head>
+    <body>
+<div class="head">
+    <img src="images/banniere_cine_votre_avis.jpg" alt="Bannière Votre avis" height="247"/>
+</div>
+
+<div class="navigation">
+    <a href="index.html"><p class="bouton">Accueil</p></a><br>
+    <a href="histoire_du_cinema.html"><p class="bouton">Histoire du cinéma</p></a><br>
+    <a href="film_cultes.html"><p class="bouton">Films cultes</p></a><br>
+    <a href="films_d'animation.html"><p class="bouton">Films d'animation</p></a><br>
+    <a href="avis.html"><p class="bouton_fonce">Votre avis</p></a><br>
+    <a href="credit.html"><p class="bouton">Crédits</p></a><br>
+</div>
+
+
+<div class="contenu">
+        <form  class="avis" method="post" action="mailto:virlouvet.evann@gmail.com" enctype="text/plain">
+            <br>
+            <fieldset>  
+                <legend>Informations personnelles</legend>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" size="25" maxlength="100" placeholder="Ex.Dupond" autofocus><br><br>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" size="25" maxlength="100" placeholder="Ex.Phillipe" required>
+                <br><br>
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" size="25" maxlength="100" required>
+            </fieldset> 
+            <br><br>
+            <label for="film">Votre Film préféré :</label>
+            <input type="text" id="film" name="film" size="25" maxlength="100" required>
+            <br><br>
+            <label for="multiligne">
+                Donnez-nous votre avis :
+            </label>
+            <br>
+            <textarea name="multiligne" id="multiligne" rows="10" cols="50"> </textarea>
+            <br><br>
+            Note de 1 à 5 :
+            <select name="note">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br><br>
+            <input type="reset" value="Recommencer">
+            <input type="submit" value="Envoyer" > 
+        </form>
+</div>
+</body>
+</html>
